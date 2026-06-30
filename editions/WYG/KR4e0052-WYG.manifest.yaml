@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR4e0052/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR4e0052/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 西郊笑端集
+  date: '2015-08-25 00:17:36.441259'
+  source:
+    repository: kanripo
+    path: KR4e0052
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4e0052_000-WYG.yaml, hash: 'sha256:562491c3a0af2a4bdc94fe61d8a4bef7f27d060b0a8438cd11c83754e9ad9cfa'}
+  - {seq: 1, filename: KR4e0052_001-WYG.yaml, hash: 'sha256:f36be45e041710755a58c1364ef30cb3f30bf5c59681c6d96ad2cbf2830ca1fa'}
+  - {seq: 2, filename: KR4e0052_002-WYG.yaml, hash: 'sha256:ea42aed9e5145cf46f0fef986114f75382d617d9928a2d69ed039a738bac464f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4e0052_000-WYG.markers.yaml, hash: 'sha256:3b0ffb146aadda04cb9785cfd3affe0aed36aea4e02af9cb26e00c864b131db3'}
+  - {seq: 1, role: markers, filename: assets/KR4e0052_001-WYG.markers.yaml, hash: 'sha256:3b5918451eb7044abb2e3ca7a9fa0a025c3a0c39422a2b2b8fd9913f5908c2aa'}
+  - {seq: 2, role: markers, filename: assets/KR4e0052_002-WYG.markers.yaml, hash: 'sha256:4eb5ebd3ab0b221f2ffc89e169f681aa7bd7b17547cfeebc23fdafaff807cb21'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0052_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 363
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0052_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 28612
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0052_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 9167
+  label: 卷二
+  type: section
+  level: 1
+hash: sha256:cafcb41230e081238c1f636a715790351ec64e5587f58dde4bdd129f02462aab
